@@ -4,8 +4,10 @@ This is a Pytorch implementation of [Subverting Website Fingerprinting Defenses 
    
 The diagram of TAM extraction:
 
+<div align="center">
 <img src="img/TAM_overview.png" width="600px">
-   
+</div>
+
 Architecture of the code:
 ```
 ROBUST-FINGERPRINTING
@@ -126,11 +128,14 @@ python generate_defence.py
 ## Main Results
 
 ### Closed World
-<img src="img/closed_world.png" width="600px">
+<div align="center">
+<img src="img/closed_world.png" width="800px">
+</div>
 
 ### Open World
-
-<img src="img/open_world.png" width="600px">
+<div align="center">
+<img src="img/open_world.png" width="800px">
+</div>
 
 ## Contact
 If you have any questions, please get in touch with us.

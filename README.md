@@ -45,6 +45,8 @@ ROBUST-FINGERPRINTING
     ├─ pretrained (trained model folder)
     └─ result (folder for evaluation results)
 ```
+:warning: The code is intended for RESEARCH PURPOSES ONLY! :warning:
+
 ## Preparation
 
 ### Environments
@@ -132,5 +134,5 @@ python generate_defence.py
 
 ## Contact
 If you have any questions, please get in touch with us.
-* Prof. Meng Shen (shenmeng@bit.edu.cn)
-* Kexin Ji (jikexin@bit.edu.cn)
+* Prof. Meng Shen ([shenmeng@bit.edu.cn](shenmeng@bit.edu.cn))
+* Kexin Ji ([jikexin@bit.edu.cn](jikexin@bit.edu.cn))

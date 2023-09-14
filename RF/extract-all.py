@@ -47,11 +47,11 @@ def process_dataset():
     for i in range(const.MONITORED_SITE_NUM):
         for j in range(const.MONITORED_INST_NUM):
             if os.path.exists(traces_path + str(i) + '-' + str(j)):
-                para_list.append(traces_path + str(i) + '-' + str(j))
+                para_list.append((traces_path + str(i) + '-' + str(j), feature_func))
 
     if const.OPEN_WORLD:
         for i in range(const.UNMONITORED_SITE_NUM):
-            para_list.append(join(traces_path, str(i)))
+            para_list.append((join(traces_path, str(i)), feature_func))
 
     random.shuffle(para_list)
 

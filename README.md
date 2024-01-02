@@ -138,7 +138,11 @@ python generate_defence.py
 </div>
 
 ## Citation
-If you find this work useful for your research, please cite our paper using the following BibTeX entry.
+If you find this work useful for your research, please cite the following:
+```
+M. Shen, K. Ji, Z. Gao, Q. Li, L. Zhu, and K. Xu, "Subverting website fingerprinting defenses with robust traffic representation," in 32nd USENIX Security Symposium (USENIX Security 23). Anaheim, CA: USENIX Association, Aug. 2023, pp. 607–624. [Online]. Available: https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng
+```
+The BibTeX is as follows:
 ```BibTeX
 @inproceedings {287396,
     author = {Meng Shen and Kexin Ji and Zhenbo Gao and Qi Li and Liehuang Zhu and Ke Xu},
@@ -159,4 +163,4 @@ If you have any questions, please get in touch with us.
 * Prof. Meng Shen ([shenmeng@bit.edu.cn](shenmeng@bit.edu.cn))
 * Kexin Ji ([jikexin@bit.edu.cn](jikexin@bit.edu.cn))
 
-More detailed information about the research of Meng Shen Lab can be found [here](https://mengshen-office.github.io/).
+More detailed information about the research of Meng Shen Lab can be found here (https://mengshen-office.github.io/).
